@@ -7,15 +7,17 @@ Stock analysis using VBA
 ## Overview of Project
 
 ### Purpose 
-    The purpose of week 2 VBA Challenge is to refactor our original code created to collect stock information relating to certain green/eco-friendly companies during 2017 and 2018. 
+        The purpose of week 2 VBA Challenge is to refactor our original code created to collect 
+    stock information relating to certain green/eco-friendly companies during 2017 and 2018. 
 
 ### Background
-    After analyzing green oriented stocks for Steve, I now want to expand on the dataset to the entire stock market over the years 2017 and 2018. Since this will return a large amount of data, we need to create efficient and concise code by refactoring our original code.
+        After analyzing green oriented stocks for Steve, I now want to expand on the dataset to the entire stock market over the years 2017 and 2018. 
+    Since this will return a large amount of data, we need to create efficient and concise code by refactoring our original code.
     
 ## Results: 
 
 ### Compare performance of 2017 & 2018. 
-    The data returned by the code includes a table on 12 different stocks. 
+        The data returned by the code includes a table on 12 different stocks. 
     The code prompts the user to identity which year they would like they would like the data ran for. 
     The information returned in the table includes the ticker Value or stock name, total daily volume and the return percent. 
     I started the process of improving the codes performance and execution time by copying the code provided. 
@@ -35,8 +37,10 @@ Stock analysis using VBA
 ## Summary 
 
 ### What are the advantages or disadvantages of refactoring code?
-    The advantaged of refactoring code include cleaner, easily digestible, and organized code. In addition, the code typically runs faster because by refactoring we are making the code more concise and efficient. 
+        The advantaged of refactoring code include cleaner, easily digestible, and organized code. 
+    In addition, the code typically runs faster because by refactoring we are making the code more concise and efficient. 
     Disadvantages include the time and resources spent cleaning up code and it is a risky activity if the code is large and very intricate. 
 
 ### How do these pros and cons apply to refactoring the original VBA script?
-    In this case the code was fairly simple to begin with so there was little risk. We were able to refactor the code without breaking the entire script and get a faster return rate for the data 
+        In this case the code was fairly simple to begin with so there was little risk. 
+    We were able to refactor the code without breaking the entire script and get a faster return rate for the data 
