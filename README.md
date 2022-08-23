@@ -15,33 +15,13 @@ Stock analysis using VBA
 ## Results: 
 
 ### Compare performance of 2017 & 2018. 
-    The data returned by the code includes a table on 12 different stocks. The code prompts the user to identity which year they would like they would like the data ran for. The information returned in the table includes the ticker Value or stock name, total daily volume and the return percent. I started the process of improving the codes performance and execution time by copying the code provided. I then edited and refactored the code to loop through all the data one time to collect the requested information. 
+    The data returned by the code includes a table on 12 different stocks. 
+    The code prompts the user to identity which year they would like they would like the data ran for. 
+    The information returned in the table includes the ticker Value or stock name, total daily volume and the return percent. 
+    I started the process of improving the codes performance and execution time by copying the code provided. 
+    I then edited and refactored the code to loop through all the data one time to collect the requested information. 
 
-      ''2a) Create a for loop to initialize the ticker Volumes to zero.   
-       For I = 0 To 11
-       ticker Volumes(I) = 0
-           Next I
-
-    ''2b) Loop over all the rows in the spreadsheet.
-    For I = 2 To RowCount
-
-        '3a) Increase volume for current ticker
-        ticker Volumes(tickerIndex) = ticker Volumes(tickerIndex) + Cells(I, 8).Value
-        
-        '3b) Check if the current row is the first row with the selected tickerIndex.
-        If Cells(I - 1, 1).Value <> tickers(tickerIndex) Then
-                tickerStartingPrices(tickerIndex) = Cells(I, 6).Value
-            End If
-        
-        '3c) check if the current row is the last row with the selected ticker
-         'If the next row’s ticker doesn’t match, increase the tickerIndex.
-        If Cells(I + 1, 1).Value <> tickers(tickerIndex) Then
-                tickerEndingPrices(tickerIndex) = Cells(I, 6).Value
-                tickerIndex = tickerIndex + 1
-            
-            End If
-            
-    <img width="590" alt="Screen Shot 2022-08-23 at 11 04 55 AM" src="https://user-images.githubusercontent.com/111096384/186202956-7c60f3d7-8f2e-4a49-88b1-8dd6b1bdcfa8.png">
+     
 <img width="526" alt="Screen Shot 2022-08-23 at 11 05 49 AM" src="https://user-images.githubusercontent.com/111096384/186202965-6be47650-dae7-4955-b4ad-08bab78f31fd.png">
 
 
