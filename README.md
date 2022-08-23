@@ -17,13 +17,9 @@ Stock analysis using VBA
 ### Compare performance of 2017 & 2018. 
     The data returned by the code includes a table on 12 different stocks. The code prompts the user to identity which year they would like they would like the data ran for. The information returned in the table includes the ticker Value or stock name, total daily volume and the return percent. I started the process of improving the codes performance and execution time by copying the code provided. I then edited and refactored the code to loop through all the data one time to collect the requested information. 
 
-      ''2a) Create a for loop to initialize the ticker Volumes to zero.
-'    Did that by adding () above
-'    Other option:
+      ''2a) Create a for loop to initialize the ticker Volumes to zero.   
        For I = 0 To 11
        ticker Volumes(I) = 0
-'       tickerStartingPrices (I)
-'       tickerEndingPrices (I)
            Next I
 
     ''2b) Loop over all the rows in the spreadsheet.
