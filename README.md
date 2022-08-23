@@ -40,7 +40,10 @@ Stock analysis using VBA
                 tickerIndex = tickerIndex + 1
             
             End If
-    
+            
+    <img width="590" alt="Screen Shot 2022-08-23 at 11 04 55 AM" src="https://user-images.githubusercontent.com/111096384/186202956-7c60f3d7-8f2e-4a49-88b1-8dd6b1bdcfa8.png">
+<img width="526" alt="Screen Shot 2022-08-23 at 11 05 49 AM" src="https://user-images.githubusercontent.com/111096384/186202965-6be47650-dae7-4955-b4ad-08bab78f31fd.png">
+
 
 ### Compare Execution times of the original script and the refactored script.
     Below are the execution times from the original script (green stocks) and the refactored script (VBA challenge)
